@@ -54,7 +54,7 @@ const Home = () => {
                         delay: 0.4,
                         duration: 1,
                       }}
-                      className='text-white tracking-tighter mt-4 mb-4'>Hello there! I’m a Front-end Developer from India. Since my youngest age I have been passionate about design and art. I grew up with the Internet, and naturally took a path according to this passion. Web Development is a way for me to keep track of all my passions. See ya!</motion.p>
+                      className='text-slate-300 tracking-tighter mt-4 mb-4'>Hello there! I’m a Front-end Developer from India. Since my youngest age I have been passionate about design and art. I grew up with the Internet, and naturally took a path according to this passion. Web Development is a way for me to keep track of all my passions. See ya!</motion.p>
                   <motion.p
                        initial={{
                         opacity: 0,
@@ -66,7 +66,7 @@ const Home = () => {
                         delay: 0.3,
                         duration: 1,
                       }}
-                      className='text-white tracking-tighter'>With a strong emphasis on "Progressive Enhancement", I look for creative ways to push the boundaries of website front-end code without compromising on browser support and performance.</motion.p>
+                      className='text-slate-300 tracking-tighter'>With a strong emphasis on "Progressive Enhancement", I look for creative ways to push the boundaries of website front-end code without compromising on browser support and performance.</motion.p>
                   <Button>My Skills</Button>
               </div>
               <motion.div
