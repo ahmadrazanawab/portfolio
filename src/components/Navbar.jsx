@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className="shadow-md fixed w-full bg-white left-0 top-0  border-b-4 border-solid border-gray-900">
+    <div className="shadow-md fixed w-full bg-white left-0 top-0  border-b-2 border-solid border-gray-900">
       <div className="md:flex justify-between md:mx-4 ">
         <div className="md:flex items-center py-4 font-[Poppins] text-2xl">
           <span className="cursor-pointer mx-4 hover:text-gray-400 duration-500">
