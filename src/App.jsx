@@ -2,13 +2,16 @@ import React from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
+import About from './components/About'
+import Skill from './components/Skill'
 
 function App() {
   return (
      <div>
           <Navbar /> 
-          <Home/>
-          {/* <div className='w-full  bg-indigo-400 h-screen '> </div> */}
+          <Home />
+          <About/>
+          <Skill/>
     </div>
   )
 }
