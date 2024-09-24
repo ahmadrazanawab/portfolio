@@ -1,11 +1,11 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import Button from './Button'
 import myImage from '../assets/ahmadraza.jpg'
 
 const Home = () => {
   return (
-      <div className='md:mt-10 pt-24 w-full bg-slate-700 h-full left-0 right-0 md:flex justify-center'>
+      <div id="Home" className='md:mt-10 pt-24 w-full bg-slate-700 h-full left-0 right-0 md:flex justify-center'>
+          
           <motion.div
               initial={{
                 x: -50,
@@ -67,7 +67,8 @@ const Home = () => {
                         duration: 1,
                       }}
                       className='text-slate-300 tracking-tighter'>With a strong emphasis on "Progressive Enhancement", I look for creative ways to push the boundaries of website front-end code without compromising on browser support and performance.</motion.p>
-                  <Button>My Skills</Button>
+                  {/* <Button id="Skill">My Skills</Button> */}
+                  <button  className=' bg-indigo-600 text-white w-40 mt-4 md:mt-6  text-xl py-1 px-4 cursor-pointer  rounded font-[Poppins] md:ml-4 hover:text-gray-400 duration-500'>My Skills</button>
               </div>
               <motion.div
                   initial={{

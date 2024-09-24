@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 const About = () => {
   return (
-    <div className='bg-slate-700'>
+    <div id="About" className='bg-slate-700'>
           <div className='md:mx-40   md:py-10'>
               <motion.div className='flex justify-center mx-4 '>
                   <motion.h2

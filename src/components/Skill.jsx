@@ -63,7 +63,7 @@ const Skill = () => {
         
     ]
   return (
-    <div className='bg-slate-700 border-t-2 border-solid border-black'>
+    <div id="Skill" className='bg-slate-700 border-t-2 border-solid border-black'>
           <div className='md:mx-20 md:py-6'>
               <div className='flex  flex-col items-center'>
                   <motion.h4
