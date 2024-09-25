@@ -5,6 +5,8 @@ import textutils from '../assets/textutils.png';
 
 const Project = () => {
   
+    // this is a my project section 
+    
     const project = [
         {
             id: 1,
