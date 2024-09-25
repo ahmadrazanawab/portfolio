@@ -4,7 +4,7 @@ import inotebook from '../assets/inotebook.png';
 import textutils from '../assets/textutils.png';
 
 const Project = () => {
-  // C:\react app\portfolio\src\assets\
+  
     const project = [
         {
             id: 1,
