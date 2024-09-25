@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Skill from './components/Skill'
+import Project from './components/Project'
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
           <Navbar /> 
           <Home />
           <About/>
-          <Skill/>
+          <Skill />
+          <Project/>
     </div>
   )
 }
