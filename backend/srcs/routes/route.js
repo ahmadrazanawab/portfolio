@@ -7,7 +7,7 @@ const { body, validationResult } = require('express-validator');
 route.post('/contact', [
     body('name', 'Enter your name').isLength({min:3}),
     body('email', 'Enter your email').isEmail(),
-    body('msg', 'Enter your Massage').isLength({min:3})
+    body('msg', 'Enter your Massage').isLength({min:6})
 ],async (req, res) => {
     try {
         let success = false
