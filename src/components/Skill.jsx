@@ -10,6 +10,9 @@ import ts from '../assets/ts.png'
 import gh from '../assets/gh.png'
 
 const Skill = () => {
+
+    
+
     const teches = [
         {
             id: 1,
@@ -63,7 +66,7 @@ const Skill = () => {
         
     ]
   return (
-    <div id="Skill" className='bg-slate-700 py-10 border-t-2 border-solid border-black'>
+      <div id="Skill"  className={`bg-slate-700 py-10 border-t-2 border-solid border-black`}>
           <div className='md:mx-28  md:py-6'>
               <div className='flex  flex-col items-center'>
                   <motion.h4
@@ -76,7 +79,7 @@ const Skill = () => {
                       transition={{
                         delay: 0.2,
                       }}
-                      className='md:text-4xl text-white border-b-4 border-solid mb-2 border-white'>My Skills</motion.h4>
+                      className='md:text-4xl text-2xl text-white border-b-4 border-solid mb-2 border-white'>My Skills</motion.h4>
                   <motion.p
                        initial={{
                         opacity: 0,

@@ -1,8 +1,10 @@
-import React from 'react'
+import React  from 'react'
 import { motion } from "framer-motion"
 import myImage from '../assets/ahmadraza.jpg'
+import { Link } from 'react-scroll'
 
 const Home = () => {
+    
   return (
       <div id="Home" className='md:mt-10 pt-24 w-full bg-slate-700 h-full left-0 right-0 md:flex justify-center'>
           
@@ -20,7 +22,7 @@ const Home = () => {
                 damping: 50,
               }}
               className='md:flex border-b-2 border-solid border-black'>
-              <div className='md:flex md:flex-col md:ml-36 justify-center my-4 mx-4'> 
+              <div  className='md:flex md:flex-col md:ml-36 justify-center my-4 mx-4'> 
                   <motion.h2
                       initial={{
                         opacity: 0,
@@ -54,7 +56,7 @@ const Home = () => {
                         delay: 0.4,
                         duration: 1,
                       }}
-                      className='text-slate-300 tracking-tighter mt-4 mb-4'>Hello there! I’m a Front-end Developer from India. Since my youngest age I have been passionate about design and art. I grew up with the Internet, and naturally took a path according to this passion. Web Development is a way for me to keep track of all my passions. See ya!</motion.p>
+                      className='text-slate-300  tracking-tighter mt-4 mb-4'>Hello there! I’m a Front-end Developer from India. Since my youngest age I have been passionate about design and art. I grew up with the Internet, and naturally took a path according to this passion. Web Development is a way for me to keep track of all my passions. See ya!</motion.p>
                   <motion.p
                        initial={{
                         opacity: 0,
@@ -67,12 +69,11 @@ const Home = () => {
                         duration: 1,
                       }}
                       className='text-slate-300 tracking-tighter'>With a strong emphasis on "Progressive Enhancement", I look for creative ways to push the boundaries of website front-end code without compromising on browser support and performance.</motion.p>
-                  {/* <Button id="Skill">My Skills</Button> */}
-                  <button  className=' bg-indigo-600 text-white w-40 mt-4 md:mt-6  text-xl py-1 px-4 cursor-pointer  rounded font-[Poppins] md:ml-4 hover:text-gray-400 duration-500'>My Skills</button>
+                  <Link to='Skill' smooth duration={700}  className='bg-indigo-600  text-white w-40 mt-4 md:mt-6  text-xl py-1 px-4 cursor-pointer text-center  rounded font-[Poppins] md:ml-4 hover:text-gray-400'>My Skills</Link>
               </div>
               <motion.div
                   initial={{
-                    x: 50,
+                    x: 100,
                   }}
                   animate={{
                     x: 0,

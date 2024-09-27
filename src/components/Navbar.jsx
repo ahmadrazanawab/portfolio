@@ -27,7 +27,7 @@ const Navbar = () => {
                    }
 
               </div>
-        <ul className={`md:flex  md:static   md:items-center   pb-4 py-4 w-full md:w-auto   font-[Poppins] absolute   md:z-auto z-[-1] bg-slate-600  md:text-1xl items-center cursor-pointer transition-all duration-500 ease-in ${open ? 'top-18 opacity-100':'top-[-490px]'} md:opacity-100 opacity-0`}>
+        <ul className={`md:flex  scroll-smooth md:static   md:items-center   pb-4 py-4 w-full md:w-auto   font-[Poppins] absolute   md:z-auto z-[-1] bg-slate-600  md:text-1xl items-center cursor-pointer transition-all duration-500 ease-in ${open ? 'top-18 opacity-100':'top-[-490px]'} md:opacity-100 opacity-0`}>
           {Links.map(({id,name}) => (
             <li key={id} className="flex  justify-center  md:mx-3 md:my-0 my-7 mx-0 text-xl md:text-1xl text-white hover:text-pink-500 duration-500">
               <Link to={name} smooth duration={500} onClick={()=>setNav(nav)}>{name}</Link>

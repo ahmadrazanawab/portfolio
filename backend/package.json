@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "srcs/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "srcs/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0",
+    "mongoose": "^6.10.0",
+    "nodemon": "^3.1.7",
+    "validation": "^0.0.1"
+  }
+}
