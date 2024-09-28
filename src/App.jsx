@@ -7,6 +7,7 @@ import Skill from "./components/Skill";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import ContactState from "./ContextApi/ContactState";
+import SocailLinks from "./SocailLinks";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <Skill />
         <Project />
         <Contact />
-     </ContactState>
+        </ContactState>
+        <SocailLinks/>
     </>
   );
 }
