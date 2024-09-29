@@ -5,6 +5,8 @@ import { MdEmail } from "react-icons/md";
 import { RxResume } from "react-icons/rx";
 
 const SocailLinks = () => {
+
+    // this is commit add 
   const links = [
     {
       id: 1,
@@ -36,7 +38,16 @@ const SocailLinks = () => {
       ),
       href:"mailto:ahmadrazanawab@gmail.com",
     },
-   
+    {
+      id: 4,
+      child: (
+        <>
+           <h4>Resume</h4>
+          <RxResume size={25} />
+        </>
+      ),
+      href:"https://github.com/ahmadrazanawab",
+    },
   ];
   return (
     <div className="flex flex-col absolute top-[35%] left-0 fixed">
