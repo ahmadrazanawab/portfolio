@@ -6,7 +6,7 @@ import { RxResume } from "react-icons/rx";
 
 const SocailLinks = () => {
 
-    // this is commit add 
+   
   const links = [
     {
       id: 1,
