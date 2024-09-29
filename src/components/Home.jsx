@@ -33,7 +33,7 @@ const Home = () => {
                       transition={{
                         delay: 0.2,
                       }}
-                      className='font-bold text-white md:text-5xl text-3xl tracking-tighter'>Hi,</motion.h2>
+                      className='font-bold text-white md:text-5xl text-3xl tracking-tighter'>Welcome!</motion.h2>
                   <motion.h4
                        initial={{
                         opacity: 0,
@@ -56,7 +56,7 @@ const Home = () => {
                         delay: 0.4,
                         duration: 1,
                       }}
-                      className='text-slate-300  tracking-tighter mt-4 mb-4'>Hello there! I’m a Front-end Developer from India. Since my youngest age I have been passionate about design and art. I grew up with the Internet, and naturally took a path according to this passion. Web Development is a way for me to keep track of all my passions. See ya!</motion.p>
+                      className='text-slate-300  tracking-tighter mt-4 mb-4'>Hello there! I’m a MERN Developer from India. Since my youngest age I have been passionate about design and art. I grew up with the Internet, and naturally took a path according to this passion. Web Development is a way for me to keep track of all my passions. See ya!</motion.p>
                   <motion.p
                        initial={{
                         opacity: 0,

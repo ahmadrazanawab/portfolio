@@ -22,7 +22,7 @@ const SocailLinks = () => {
       id: 2,
       child: (
         <>
-          <h>GitHub</h>
+          <h4>GitHub</h4>
           <FaGithub size={25} />
         </>
       ),
@@ -46,11 +46,11 @@ const SocailLinks = () => {
           <RxResume size={25} />
         </>
       ),
-      href:"https://github.com/ahmadrazanawab",
+      href:"https://drive.google.com/file/d/10Sls9ouZyvbMN_l5cxAjY4KJR3kQ0KfR/view?usp=drivesdk",
     },
   ];
   return (
-    <div className="flex flex-col absolute top-[35%] left-0 fixed">
+    <div className="flex flex-col  top-[35%] left-0 fixed">
       <div className="flex flex-col">
         {links.map((link) => {
           return (
@@ -58,7 +58,7 @@ const SocailLinks = () => {
                   <a  href={link.href}
                       target="_blank"
                       rel="noreferrer"
-                      className="flex my-1 py-4 px-4 bg-slate-400 w-32 h-12 items-center font-bold  ml-[-80px] hover:ml-[-5px] duration-500 justify-between  shadow-md rounded cursor-pointer">
+                      className="flex my-1 py-4 px-4 bg-slate-400 w-32  h-12   items-center font-bold  ml-[-80px] hover:ml-[-5px] duration-300 justify-between  shadow-md rounded cursor-pointer">
                       {link.child}
                   </a>
             </div>

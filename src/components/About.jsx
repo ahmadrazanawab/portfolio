@@ -30,7 +30,9 @@ const About = () => {
                         delay: 0.3,
                         duration: 1,
                       }}
-                      className='tracking-tighter md:text-xl my-2  text-slate-300'>Hello there! I’m a Front-end Developer from India. Since my youngest age I have been passionate about design and art. I grew up with the Internet, and naturally took a path according to this passion. Web Development is a way for me to keep track of all my passions. See ya!</motion.p>
+                      className='tracking-tighter md:text-xl my-2  text-slate-300'>
+                      Hi, I’m Md Ahmad Raza, a passionate Full-Stack Developer specializing in the MERN stack. I enjoy transforming complex problems into simple, elegant solutions.
+                  </motion.p>
                   <motion.p
                       initial={{
                         opacity: 0,
@@ -42,7 +44,23 @@ const About = () => {
                         delay: 0.3,
                         duration: 1,
                       }}
-                      className='tracking-tighter md:text-xl  my-2  pb-4 text-slate-300'>With a strong emphasis on "Progressive Enhancement", I look for creative ways to push the boundaries of website front-end code without compromising on browser support and performance.</motion.p>
+                      className='tracking-tighter md:text-xl  my-2  pb-4 text-slate-300'>
+                        My journey started with a love for coding, and over the years, I’ve become proficient in building end-to-end web applications using the MERN stack. From my first "Hello World" to developing fully functional web platforms, I have always been driven by a passion for technology and problem-solving.
+                  </motion.p>
+                  <motion.p
+                      initial={{
+                        opacity: 0,
+                      }}
+                      whileInView={{
+                        opacity: 1,
+                      }}
+                      transition={{
+                        delay: 0.3,
+                        duration: 1,
+                      }}
+                      className='tracking-tighter md:text-xl  my-2  pb-4 text-slate-300'>
+                      As a MERN developer, I focus on clean, maintainable code and scalable solutions. My goal is to build responsive, user-friendly applications that meet business needs and exceed user expectations.
+                  </motion.p>
               </div>
           </div>
     </div>
