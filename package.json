@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "both": "concurrently \"npm run dev\" \"nodemon backend/srcs/index.js\"",
+    "start": "react-scripts start",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
