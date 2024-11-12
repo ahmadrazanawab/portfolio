@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 import inotebook from '../assets/inotebook.png';
 import textutils from '../assets/textutils.png';
+import tictactoe from '../assets/tictactoeImage.png';
 
 const Project = () => {
   
@@ -16,12 +17,19 @@ const Project = () => {
             desc:"html css javascript react.js express node.js and mongoDB",
         },
         {
-            id: 3,
+            id: 2,
             img: textutils,
             link:"https://text-tutiles.netlify.app/",
             title: "Textutils",
             desc:"html css javascript react.js express node.js",
-        }, 
+        },
+        {
+            id: 3,
+            img: tictactoe,
+            link:"https://tictactoeapp-ahmad.netlify.app/",
+            title: "Tic Tac Toe",
+            desc:"html css javascript react.js express node.js",
+        },
     ]
     
     return (
