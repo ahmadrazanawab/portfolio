@@ -3,6 +3,7 @@ import { motion } from "framer-motion"
 import inotebook from '../assets/inotebook.png';
 import textutils from '../assets/textutils.png';
 import tictactoe from '../assets/tictactoeImage.png';
+import todoImage from '../assets/todoImage.png';
 
 const Project = () => {
   
@@ -11,10 +12,10 @@ const Project = () => {
     const project = [
         {
             id: 1,
-            img: inotebook,
-            link:"https://inotebookweb.netlify.app/",
-            title: "iNotebook",
-            desc:"html css javascript react.js express node.js and mongoDB",
+            img: todoImage,
+            link:"https://ahmad-raza-todoapp.netlify.app/",
+            title: "Todo",
+            desc:"html tailwind css javascript react.js express and node.js",
         },
         {
             id: 2,
@@ -25,6 +26,13 @@ const Project = () => {
         },
         {
             id: 3,
+            img: inotebook,
+            link:"https://inotebookweb.netlify.app/",
+            title: "iNotebook",
+            desc:"html css javascript react.js express node.js and mongoDB",
+        },
+        {
+            id: 4,
             img: tictactoe,
             link:"https://tictactoeapp-ahmad.netlify.app/",
             title: "Tic Tac Toe",
