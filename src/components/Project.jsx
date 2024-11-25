@@ -4,6 +4,7 @@ import inotebook from '../assets/inotebook.png';
 import textutils from '../assets/textutils.png';
 import tictactoe from '../assets/tictactoeImage.png';
 import todoImage from '../assets/todoImage.png';
+import ecommerceImg from '../assets/ecommerce.png';
 
 const Project = () => {
   
@@ -12,27 +13,34 @@ const Project = () => {
     const project = [
         {
             id: 1,
+            img: ecommerceImg,
+            link:"https://ahmad-ecommerce.netlify.app/",
+            title: "eCommerce Website",
+            desc:"html tailwind css javascript react.js redux express and node.js",
+        },
+        {
+            id: 2,
             img: todoImage,
             link:"https://ahmad-raza-todoapp.netlify.app/",
             title: "Todo",
             desc:"html tailwind css javascript react.js express and node.js",
         },
         {
-            id: 2,
+            id: 3,
             img: textutils,
             link:"https://text-tutiles.netlify.app/",
             title: "Textutils",
             desc:"html css javascript react.js express node.js",
         },
         {
-            id: 3,
+            id: 4,
             img: inotebook,
             link:"https://inotebookweb.netlify.app/",
             title: "iNotebook",
             desc:"html css javascript react.js express node.js and mongoDB",
         },
         {
-            id: 4,
+            id: 5,
             img: tictactoe,
             link:"https://tictactoeapp-ahmad.netlify.app/",
             title: "Tic Tac Toe",
