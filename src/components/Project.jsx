@@ -35,9 +35,9 @@ const Project = () => {
         {
             id: 4,
             img: inotebook,
-            link:"https://inotebookweb.netlify.app/",
+            link:"https://ahmad-raza-notes-app.netlify.app/",
             title: "iNotebook",
-            desc:"html css javascript react.js express node.js and mongoDB",
+            desc:"html css javascript react typescript express node.js and mongoDB",
         },
         {
             id: 5,
